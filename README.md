@@ -7,7 +7,7 @@ Este projeto aborda a alta rotatividade de funcionários na Salifort Motors, uma
 A equipe de liderança sênior e o departamento de Recursos Humanos (RH) da Salifort Motors são as principais partes interessadas neste projeto. Eles enfrentam o desafio de uma alta taxa de rotatividade, que gera custos significativos em recrutamento, treinamento e perda de expertise. O objetivo foi criar um modelo que previsse quais funcionários poderiam sair e identificar os fatores que impulsionam essa decisão, permitindo estratégias proativas de retenção e fortalecimento da cultura organizacional.
 
 ## Compreensão dos Dados
-Os dados foram extraídos do conjunto "HR_capstone_dataset.csv" ([Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction)), contendo 11.991 registros únicos de funcionários após remoção de duplicatas. As variáveis incluem:
+Os dados foram extraídos do conjunto "HR_comma_sep.csv" ([Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction)), contendo 11.991 registros únicos de funcionários após remoção de duplicatas. As variáveis incluem:
 
 - `satisfaction_level`: Nível de satisfação autorreferido [0-1].
 - `number_of_projects`: Quantidade de projetos atribuídos.
@@ -22,12 +22,12 @@ Dois modelos de aprendizado de máquina foram testados: Random Forest e XGBoost,
 
 - **Random Forest**:
   - Recall: ~90%
-  - Acurácia: >98%
+  - Accuracy: >98%
 - **XGBoost** (modelo selecionado):
   - Recall: 93,72%
-  - Precisão: 89,66%
-  - F1-Score: 91,65%
-  - Acurácia: 97,17%
+  - Precision: 90,31%
+  - F1-Score: 91,98%
+  - Accuracy: 97,29%
 
 O XGBoost destacou-se pelo desempenho superior. Features como `workload_risk` (risco de sobrecarga/subutilização), `satisfaction_level` e `tenure` foram os principais preditores, confirmando insights da análise exploratória.
 
