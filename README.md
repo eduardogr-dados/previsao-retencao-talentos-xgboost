@@ -1,7 +1,7 @@
 # Previsão de Rotatividade de Funcionários usando XGBoost na Salifort Motors
 
 ## Visão Geral do Projeto
-Este projeto aborda a alta rotatividade de funcionários na Salifort Motors, uma fabricante fictícia de veículos de energia alternativa. Utilizando o conjunto de dados "HR_comma_sep.csv" do Kaggle, que contém informações como nível de satisfação, número de projetos e horas trabalhadas, foi desenvolvido um modelo preditivo para identificar colaboradores em risco de deixar a empresa. O modelo XGBoost alcançou um recall de 93,72% e uma precisão de 89,66%, oferecendo insights acionáveis para reduzir custos e melhorar a retenção de talentos.
+Este projeto aborda a alta rotatividade de funcionários na Salifort Motors, uma fabricante fictícia de veículos de energia alternativa. Utilizando o conjunto de dados "HR_comma_sep.csv" do Kaggle, que contém informações como nível de satisfação, número de projetos e horas trabalhadas, foi desenvolvido um modelo preditivo para identificar colaboradores em risco de deixar a empresa. O modelo XGBoost alcançou um recall de 93,72% e uma precisão de 90,31%%, oferecendo insights acionáveis para reduzir custos e melhorar a retenção de talentos.
 
 ## Entendimento do Negócio
 A equipe de liderança sênior e o departamento de Recursos Humanos (RH) da Salifort Motors são as principais partes interessadas neste projeto. Eles enfrentam o desafio de uma alta taxa de rotatividade, que gera custos significativos em recrutamento, treinamento e perda de expertise. O objetivo foi criar um modelo que previsse quais funcionários poderiam sair e identificar os fatores que impulsionam essa decisão, permitindo estratégias proativas de retenção e fortalecimento da cultura organizacional.
